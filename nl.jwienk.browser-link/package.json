@@ -1,0 +1,20 @@
+{
+  "name": "nl.jwienk.browser-link",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch . --exec \"homey app run --remote\""
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "app.json"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "ws": "^8.15.1"
+  }
+}

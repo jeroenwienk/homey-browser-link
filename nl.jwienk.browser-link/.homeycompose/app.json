@@ -1,0 +1,25 @@
+{
+  "id": "nl.jwienk.browser-link",
+  "version": "1.0.0",
+  "compatibility": ">=10.0.0",
+  "sdk": 3,
+  "brandColor": "#000000",
+  "platforms": ["local"],
+  "name": {
+    "en": "Browser Link"
+  },
+  "description": {
+    "en": "Create a link between your browser and Homey."
+  },
+  "category": ["tools"],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Jeroen Wienk",
+    "email": "jeroenwienk@gmail.com"
+  }
+}

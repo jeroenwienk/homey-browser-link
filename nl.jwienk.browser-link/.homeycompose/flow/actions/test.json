@@ -1,0 +1,14 @@
+{
+  "title": {
+    "en": "Send command"
+  },
+  "args": [
+    {
+      "type": "text",
+      "name": "command",
+      "placeholder": {
+        "en": "command"
+      }
+    }
+  ]
+}

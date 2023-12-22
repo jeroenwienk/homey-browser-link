@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Extensions of the world",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icons/socket-inactive.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "minimum_chrome_version": "116",
+  "omnibox": {
+    "keyword": "api"
+  },
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "activeTab",
+    "storage"
+  ]
+}
